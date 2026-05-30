@@ -4,7 +4,7 @@ url: "https://basicenglish.github.io"
 
 theme: jekyll-theme-midnight
 
-show_downloads: false
+#show_downloads: false
 
 plugins:
   - jekyll-sitemap
