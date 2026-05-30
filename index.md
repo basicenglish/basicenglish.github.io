@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 title: "Welcome to Basic English 40"
 youtube_id: "xNnrVmNyRxw"
 ---
