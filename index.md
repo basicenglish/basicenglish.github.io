@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Welcome to Basic English 40"
+title: "Basic English"
 permalink: /
 ---
 
