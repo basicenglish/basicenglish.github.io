@@ -2,9 +2,7 @@ title: "Basic English"
 description: "Basic English"
 url: "https://basicenglish.github.io"
 
-theme: jekyll-theme-midnight
-
-#show_downloads: false
+theme: jekyll-theme-hacker
 
 plugins:
   - jekyll-sitemap
