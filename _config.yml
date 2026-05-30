@@ -4,8 +4,5 @@ url: "https://basicenglish.github.io"
 
 theme: minima
 
-minima:
-  skin: dark
-
 plugins:
   - jekyll-sitemap
