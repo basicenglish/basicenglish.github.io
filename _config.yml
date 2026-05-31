@@ -1,6 +1,0 @@
-title: "Basic English"
-description: "Basic English"
-url: "https://basicenglish.github.io"
-
-plugins:
-  - jekyll-sitemap
