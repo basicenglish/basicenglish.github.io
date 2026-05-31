@@ -1,5 +1,3 @@
-## О проекте
-
 basicenglish.github.io
 
 <iframe id="ytplayer" type="text/html" width="640" height="390"
