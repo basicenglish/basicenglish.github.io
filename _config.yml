@@ -5,4 +5,3 @@ plugins:
 - jekyll-feed
 minima:
   skin: solarized-dark
-  show_excerpts: true
