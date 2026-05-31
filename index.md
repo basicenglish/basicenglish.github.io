@@ -3,5 +3,5 @@ layout: page
 title: "Basic English"
 permalink: /
 ---
-<iframe src="https://www.youtube.com/embed/xNnrVmNyRxw"
-  style="width: 100%; height: auto;" frameborder="0"></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/xNnrVmNyRxw"
+  style="height: auto; aspect-ratio: 16/9;" frameborder="0"></iframe>
