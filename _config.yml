@@ -5,3 +5,7 @@ plugins:
 - jekyll-feed
 minima:
   skin: solarized-dark
+  social_links:
+    - title: Basic English
+      icon: youtube
+      url: "https://www.youtube.com/@BasicEnglish40"
