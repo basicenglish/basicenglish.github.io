@@ -1,6 +1,6 @@
 ---
 layout: page_
-title: true
+title: "true"
 video_id: YBWGE7rP8ws
 position: 792
 group: qualities
