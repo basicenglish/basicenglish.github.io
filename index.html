@@ -24,7 +24,7 @@ permalink: /
     <p>
       {% assign sorted_words = current_words | sort: "position" %}
       {% for word in sorted_words %}
-        <a href="{{ word.url }}"><strong>{{ word.title }}</strong></a>
+        <a href="{{ word.url }}" target=_blank><strong>{{ word.title }}</strong></a>
         {% unless forloop.last %} • {% endunless %}
       {% endfor %}
     </p>
