@@ -10,3 +10,6 @@ minima:
       icon: youtube
       url: "https://www.youtube.com/@BasicEnglish40"
 google_analytics: G-NV3JM1YPWH
+collections:
+  words:
+    output: true
