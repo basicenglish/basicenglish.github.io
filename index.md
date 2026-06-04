@@ -20,7 +20,6 @@ permalink: /
         {% for word in sorted_words %}
           <li>
             <a href="{{ word.url }}"><strong>{{ word.title }}</strong></a>
-            {% if word.video_id %}<span>▶️</span>{% endif %}
           </li>
         {% endfor %}
       </ul>
