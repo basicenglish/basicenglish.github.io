@@ -3,3 +3,13 @@ layout: page
 ---
 <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}"
   style="width: 100%; aspect-ratio: 16/9;" frameborder="0"></iframe>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ page.title | escape }}",
+  "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
+  "uploadDate": "{{ page.date | date_to_xmlschema }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}"
+}
+</script>
