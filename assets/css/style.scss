@@ -4,3 +4,4 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css");
