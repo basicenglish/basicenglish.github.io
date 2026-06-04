@@ -1,5 +1,15 @@
 ---
 layout: page
 ---
-<iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+<iframe src="https://www.youtube.com/embed/{{ page.video_id }}"
   style="width: 100%; aspect-ratio: 16/9;" frameborder="0"></iframe>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ page.title | escape }}",
+  "thumbnailUrl": "https://img.youtube.com/vi/{{ page.video_id }}/maxresdefault.jpg",
+  "uploadDate": "{{ site.time | date_to_xmlschema }}",
+  "embedUrl": "https://www.youtube.com/embed/{{ page.video_id }}"
+}
+</script>

@@ -1,6 +1,7 @@
 ---
 layout: page_
 title: come
-permalink: /come
-youtube_id: oT87tLGQDl0
+video_id: oT87tLGQDl0
+position: 1
+group: operations
 ---

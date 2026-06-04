@@ -13,4 +13,4 @@ google_analytics: G-NV3JM1YPWH
 collections:
   words:
     output: true
-    permalink: /:title/
+    permalink: /:title
