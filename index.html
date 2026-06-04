@@ -11,18 +11,22 @@ permalink: /
 {% for group_slug in wiki_order %}
   {% assign current_words = site.words | where: "group", group_slug %}
   
-  {% if current_words.size > 0 %}
-    <div class="word-group-section">
-      <h2>{{ group_slug | replace: "_", " " | capitalize }}</h2>
-      
-      <ul class="word-list">
-        {% assign sorted_words = current_words | sort: "position" %}
-        {% for word in sorted_words %}
-          <li>
-            <a href="{{ word.url }}"><strong>{{ word.title }}</strong></a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+  <div class="word-group-section">
+    <h2>
+      {% if group_slug == "operations" %}Operations
+      {% elsif group_slug == "things" %}Things — General
+      {% elsif group_slug == "picturable" %}Things — Picturable
+      {% elsif group_slug == "qualities" %}Qualities — General
+      {% elsif group_slug == "opposites" %}Qualities — Opposites
+      {% endif %}
+    </h2>
+    
+    <p>
+      {% assign sorted_words = current_words | sort: "position" %}
+      {% for word in sorted_words %}
+        <a href="{{ word.url }}"><strong>{{ word.title }}</strong></a>
+        {% unless forloop.last %} • {% endunless %}
+      {% endfor %}
+    </p>
+  </div>
 {% endfor %}
