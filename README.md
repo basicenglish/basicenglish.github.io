@@ -1,2 +1,1 @@
-# [basicenglish.github.io](https://basicenglish.github.io)
-# <a href=https://basicenglish.github.io>basicenglish.github.io</a>
+# <a href=https://basicenglish.github.io target=_blank>basicenglish.github.io</a>
