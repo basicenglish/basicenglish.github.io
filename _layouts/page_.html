@@ -9,7 +9,7 @@ layout: page
   "@type": "VideoObject",
   "name": "{{ page.title | escape }}",
   "thumbnailUrl": "https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg",
-  "uploadDate": "{{ page.last_modified_at | date_to_xmlschema }}",
+  "uploadDate": "{{ site.time | date_to_xmlschema }}",
   "embedUrl": "https://www.youtube.com/embed/{{ page.youtube_id }}"
 }
 </script>
