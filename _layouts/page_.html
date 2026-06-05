@@ -8,6 +8,7 @@ layout: page
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "{{ page.title | escape }}",
+  "description": "{{ page.title | escape }}",
   "thumbnailUrl": "https://img.youtube.com/vi/{{ page.video_id }}/maxresdefault.jpg",
   "uploadDate": "{{ site.time | date_to_xmlschema }}",
   "embedUrl": "https://www.youtube.com/embed/{{ page.video_id }}"
